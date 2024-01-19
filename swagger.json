@@ -8,8 +8,7 @@
   "host": "contactsapi2024.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
-    "https"
+     "https"
   ],
   "paths": {
     "/": {
