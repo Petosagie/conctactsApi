@@ -14,7 +14,7 @@
     "/": {
       "get": {
         "tags": [
-          "Hello World"
+          "Welcome Message"
         ],
         "description": "",
         "responses": {
@@ -24,7 +24,7 @@
         }
       }
     },
-    
+   
     "/contacts/": {
       "get": {
         "tags": [
