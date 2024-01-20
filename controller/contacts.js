@@ -47,6 +47,7 @@ const createContact = async (req, res) => {
       favoriteColor: req.body.favoriteColor,
       birthday: req.body.birthday
       
+      
     }
     const result = await Contacts.create(data);
     res.status(204).send();
@@ -70,6 +71,7 @@ const updateContact = async (req, res) => {
       email: req.body.email,
       favoriteColor: req.body.favoriteColor,
       birthday: req.body.birthday
+    
       
     }
     const result = await Contacts.replaceOne({ _id: id }, data)
